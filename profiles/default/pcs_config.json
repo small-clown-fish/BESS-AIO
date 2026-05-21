@@ -1,0 +1,11 @@
+{
+  "name": "PCS-1-1",
+  "enabled": true,
+  "host": "192.168.10.105",
+  "port": 502,
+  "unit_id": 1,
+  "timeout": 3.0,
+  "fake_scenario": "normal",
+  "driver": "generic_modbus_pcs",
+  "profile": "kehua_bcs1250"
+}

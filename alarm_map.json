@@ -1,0 +1,126 @@
+{
+  "0x0000": {
+    "Bit0": "voltage warning level 1 Single cell over-",
+    "Bit1": "voltage warning level 2 Single cell over-",
+    "Bit2": "voltage warning level 3 Single cell",
+    "Bit3": "under-voltage warning level 1 Single cell",
+    "Bit4": "under-voltage warning level 2 Single cell",
+    "Bit5": "under-voltage warning level 3 Single cell",
+    "Bit6": "extreme over- voltage warning Single cell",
+    "Bit7": "extreme under- voltage warning",
+    "Bit8": "voltage warning level 1 Single rack over-",
+    "Bit9": "voltage warning level 2 Single rack",
+    "Bit10": "under-voltage warning level 1 Single rack",
+    "Bit11": "under-voltage warning level 2 Big voltage",
+    "Bit12": "difference between cells warning",
+    "Bit13": "Invalid cell voltage warning",
+    "Bit14": "required due to single cell over discharge Replacement",
+    "Bit15": "required due to single cell over charge Low SOC over"
+  },
+  "0x0001": {
+    "Bit0": "discharge warning Low SOC over",
+    "Bit1": "discharge warning",
+    "Bit6": "current warning level 1 Charge over-",
+    "Bit7": "current warning level 2 Charge over-",
+    "Bit8": "current warning level 3 Charge over-",
+    "Bit9": "current warning level 4",
+    "Bit10": "Current sensor failed warning Single cell over-",
+    "Bit14": "temperature warning level 1 Single cell over-",
+    "Bit15": "temperature warning level 2 Single cell over-"
+  },
+  "0x0002": {
+    "Bit1": "temperature warning level 4 Single cell",
+    "Bit2": "under- temperature",
+    "Bit4": "under- temperature warning level 3 Big temperature",
+    "Bit5": "difference between cells warning level 1 Big temperature",
+    "Bit6": "difference between cells warning level 2 Big temperature",
+    "Bit7": "difference between cells warning level 3 SBMU main",
+    "Bit8": "control box over- temperature warning level 1 SBMU main",
+    "Bit9": "control box over- temperature warning level 2 SBMU main",
+    "Bit10": "control box over- temperature warning level 3 SBMU main",
+    "Bit11": "control box over- temperature warning level 4 SBMU main control box",
+    "Bit12": "under- temperature warning level 1 SBMU main control box",
+    "Bit14": "under- temperature warning level 3 Single temperature",
+    "Bit15": "sampling abnormal warning"
+  },
+  "0x0003": {
+    "Bit0": "sampling abnormal warning CSC 24V power"
+  },
+  "0x0004": {
+    "Bit9": "supply abnormal warning SBMU 24V",
+    "Bit10": "power supply abnormal warning",
+    "Bit14": "MSD warning",
+    "Bit15": "Rack fuse warning"
+  },
+  "0x0005": {
+    "Bit0": "Rack isolate switch warning Main positive",
+    "Bit1": "relay sticking warning Main negative",
+    "Bit2": "relay sticking warning Both main positive relay",
+    "Bit3": "and main negative relay sticking fault Main positive",
+    "Bit4": "relay open circuit warning",
+    "Bit5": "open circuit warning Battery rack door",
+    "Bit6": "(travel switch) fault",
+    "Bit7": "Main control box fan warning Inner"
+  },
+  "0x0006": {
+    "Bit5": "communication warning (CCAN) Inner",
+    "Bit6": "communication warning (SCAN) Inner",
+    "Bit7": "communication warning (MCAN)",
+    "Bit11": "Balancing circuit warning",
+    "Bit13": "SOC low warning level 1",
+    "Bit14": "SOC low warning level 2",
+    "Bit15": "HV circuit open circuit warning"
+  },
+  "0x0007": {
+    "Bit3": "failed twice warning HV+&HV-",
+    "Bit9": "reversed connection fault Thermal"
+  },
+  "0x0008": {
+    "Bit0": "runaway caused fire fault HV circuit",
+    "Bit5": "(Fuse)open circuit warning Big temperature"
+  },
+  "0x0009": {
+    "Bit8": "difference between racks"
+  },
+  "0x0010": {
+    "Bit0": "Insulation warning",
+    "Bit1": "Insulation fault",
+    "Bit2": "Invalid insulation fault The quantity of",
+    "Bit3": "HV racks less than setting value fault SBMU",
+    "Bit6": "communication lost warning SBMU",
+    "Bit7": "communication lost fault EMS",
+    "Bit8": "communication lost fault IMM",
+    "Bit9": "communication lost fault Air conditioner",
+    "Bit10": "communication lost warning",
+    "Bit11": "TMS communication fault Centralized",
+    "Bit12": "TMS communication warning Centralized",
+    "Bit13": "TMS fault level 2 Centralized",
+    "Bit14": "TMS mode conflict fault Centralized",
+    "Bit15": "TMS fault level 1"
+  },
+  "0x0011": {
+    "Bit0": "SPD failure warning AUX Power",
+    "Bit1": "DCDC failure warning AUX Power",
+    "Bit2": "ACDC failure warning",
+    "Bit3": "AUX Power failure fault",
+    "Bit4": "Fire system fault level 1_MBMU",
+    "Bit5": "Fire system fault level 2_MBMU Fire system",
+    "Bit6": "failure warning MBMU",
+    "Bit7": "E-STOP fault",
+    "Bit8": "Client E-STOP fault Electrical rack",
+    "Bit9": "door (travel switch) fault",
+    "Bit10": "Electrical rack fan warning Smoke exhaust",
+    "Bit11": "ventilation body warning",
+    "Bit12": "ventilation state fault",
+    "Bit13": "Humidifier1 failure warning"
+  },
+  "0x0012": {
+    "Bit0": "Humidifier2 failure warning MBMU 24V"
+  },
+  "0x0013": {
+    "Bit3": "power supply abnormal fault Slave MBMU",
+    "Bit4": "communication lost fault Centralized",
+    "Bit7": "TMS warning level 3 Step-Charge",
+    "Bit15": "Mode inconsistency warning"
+  }
+}
